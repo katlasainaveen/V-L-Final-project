@@ -8,7 +8,8 @@ import warnings
 
 import mmcv
 import torch
-from mmcv import Config, DictAction
+from mmengine.config import Config
+# from mmcv import DictAction
 from mmcv.runner import get_dist_info, init_dist
 from mmcv.utils import get_git_hash
 from mmdet import __version__
